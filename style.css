@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400;500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +11,8 @@ body {
   background-color:rgb(253, 251, 251);
   font-size: 17px;
   font-weight: 500;
-  line-height: 25px;
-  font-family: Epilogue,sans-serif;
-}
-
-#main {
-  margin: 91px 0 0 0;
+  line-height: 24px;
+  font-family: Montserrat,sans-serif;
 }
 
 #cabecalho {
@@ -20,6 +20,32 @@ body {
   position: fixed;
   top: 0;
   width: 1366px;
+  height: 70px;
+}
+
+#titulo {
+  margin-top: 20px; 
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px; /*espaçamento entre as letras*/
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left: 45px;
+}
+
+#lista-cabecalho {
+  position: absolute;
+  margin-left: 500px;
+}
+
+#home {
+  position: relative;
+}
+
+#main {
+  margin: 91px 0 0 0;
+  
 }
 
 #minha_foto {
@@ -33,20 +59,32 @@ body {
 #licoes {
   margin: 20px;
   position: relative;
-  margin: 0 0 0 300px;
+  margin:80px 120px; 
 } 
 
 .li-aprendidas, .li-aprender {
   display: inline-block;
-  margin: 50px;
-}
+  margin: 0 50px;
 
+}
+ #licoes_aprendidas, #licoes_a_aprender {
+   margin-left: 161px;
+   
+ }
+
+ .titulo-center {
+  text-align: center;
+}
 
 #lado-esquerdo-direito {
   background-color: rgb(221, 218, 218);
   position: relative;
   height: 250px;
-  
+  color: rgb(44, 25, 25);
+}
+
+#direito-esquerdo {
+  margin: 20px;
 }
 
 .lado-esquerdo, .lado-direito {
@@ -56,19 +94,14 @@ body {
   display: inline-block;
   padding: 30px;
   text-align: justify;
-  
- 
-}
-
-.titulo-center {
-  text-align: center;
+  /* margin:10px 20px; */
 }
 
 
 .lado-esquerdo {
-  width: 700px ;
+  width: 750px ;
   height: 150px;
-  margin-left: 20px;
+  /* margin-left: 20px;  */
   
   
 }
@@ -76,8 +109,8 @@ body {
 .lado-direito {
   width: 350px;
   height: 150px;
-  margin-left: 20px;
-  margin-top: 25px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 .tabela {
@@ -90,5 +123,40 @@ table {
 
 #rodape {
   background-color: rgb(199, 171, 199);
-  height: 250px;
+  height: 240px;
+  position: relative;
+}
+
+.nome-tribo {
+  
+  position: absolute;
+  margin-top: 40px;
+  text-align: center;
+  margin-left: 350px;
+}
+
+.contato-redes-sociais{
+
+  margin-top: 110px;
+  margin-left: 290px;
+  position: absolute;
+}
+.contato-redes-sociais ul li a {
+  background-color: rgb(179, 113, 135);
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#botao {
+  background-color: rgb(21, 150, 21);
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 510px;
+
 }

@@ -9,14 +9,16 @@
 </head>
 <body>
   <header id="cabecalho">
-    <h1 id="titulo"><Label>LIÇÕES APRENDIDAS - TRYBE!</Label></h1>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Contato</a></li>
-    </ul>
-  </nav>
+    <div id="home">
+      <h1 id="titulo" class="titulo-center"><Label>LIÇÕES APRENDIDAS - TRYBE!</Label></h1>
+      <nav>
+        <ul id="lista-cabecalho">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main id="main">
     <section>
@@ -56,23 +58,25 @@
       </div>
     </section>
 
-    <div id="lado-esquerdo-direito">
-      <article class="lado-esquerdo">
-        <h2 class="titulo-center">APRENDIZADO</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla optio nemo blanditiis tempore odio suscipit quisquam adipisci dolore illo quibusdam corporis nesciunt recusandae exercitationem laborum error natus omnis, ad ab!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore quidem non et praesentium quo dolorem illum quod accusamus, sed voluptatibus explicabo, eum, minima cum. Mollitia, incidunt. Consequatur pariatur explicabo repudiandae.
-        </p>
-      </article>
-      <section class="lado-direito">
-        <aside>
-          <h2 class="titulo-center">Uma passagem do meu aprendizado</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam sunt voluptate tenetur, minima dolorem vel necessitatibus assumenda inventore eaque!</p>
-        </aside>
-      </section>
-    </div>
+    <section id="lado-esquerdo-direito">
+      <div id="direito-esquerdo">
+        <article class="lado-esquerdo">
+          <h2 class="titulo-center">APRENDIZADO</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla optio nemo blanditiis tempore odio suscipit quisquam adipisci dolore illo quibusdam corporis nesciunt recusandae exercitationem laborum error natus omnis, ad ab!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore quidem non et praesentium quo dolorem illum quod accusamus, sed voluptatibus explicabo, eum, minima cum. Mollitia, incidunt. Consequatur pariatur explicabo repudiandae.
+          </p>
+        </article>
+        <section class="lado-direito">
+          <aside>
+            <h2 class="titulo-center">Uma passagem do meu aprendizado</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam sunt voluptate tenetur, minima dolorem vel necessitatibus assumenda inventore eaque!</p>
+          </aside>
+        </section>
+      </div>
+    </section>
 
     <section class="tabela">
       <h2 class="titulo-center">Blocos finalizados</h2>
@@ -97,9 +101,19 @@
   </main>
 
   <footer id="rodape">
-    <nav>
-      <a href="https://www.betrybe.com/" target="_blank">Página da TRYBE</a>
+    <div class="nome-tribo">
+      <h3>INGRID PAULINO PINHEIRO VASCONCELLOS DIAS</h3>
+      <p>Turma 14 - Tribo A, 2021 </p>
+    </div>
+    <nav class="contato-redes-sociais">
+      <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Linkeding</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">E-mail</a></li>
+      </ul>
     </nav>
+    <a id="botao" href="https://www.betrybe.com/" target="_blank">Página da TRYBE</a>
   </footer>   
 </body>
 </html>
