@@ -78,39 +78,33 @@ nav ul li{
 
 #lado-esquerdo-direito {
   background-color: rgb(221, 218, 218);
-  position: relative;
   height: 250px;
-  color: rgb(44, 25, 25);
+   color: rgb(44, 25, 25); 
+  padding: 5px 5px 5px 5px;
+  
+    
 }
 
-#direito-esquerdo {
-  margin: 20px;
+#esquerdo-direito {
+  margin: 23px;
 }
 
 .lado-esquerdo, .lado-direito {
   background-color: rgb(214, 166, 166);
-  /* margin: 30px 30px 0px 190px; */
-  /* padding: 20px; */
-  display: inline-block;
   padding: 30px;
   text-align: justify;
-  /* margin:10px 20px; */
+  display: inline-block;
 }
-
 
 .lado-esquerdo {
   width: 750px ;
-  height: 150px;
-  /* margin-left: 20px;  */
-  
-  
+  height: 150px; 
 }
 
 .lado-direito {
   width: 350px;
   height: 150px;
-  margin-left: 10px;
-  margin-top: 20px;
+  margin-left: 2px;
 }
 
 .tabela {
