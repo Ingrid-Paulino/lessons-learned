@@ -94,17 +94,24 @@ nav ul li{
   padding: 30px;
   text-align: justify;
   display: inline-block;
+  
 }
+
+
 
 .lado-esquerdo {
   width: 750px ;
   height: 150px; 
+  float: left;
+  display: inline-block;
 }
 
 .lado-direito {
   width: 350px;
   height: 150px;
   margin-left: 2px;
+  float: right;
+  display: inline-block;
 }
 
 .tabela {
