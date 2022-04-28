@@ -19,7 +19,7 @@ body {
   background-color: rgb(216, 154, 175);
   position: fixed;
   top: 0;
-  width: 1366px;
+  width: 1940px;
   height: 70px;
   z-index: 1;
 }
@@ -37,7 +37,7 @@ nav ul li{
 
 #lista-cabecalho {
   position: absolute;
-  margin-left: 500px;
+  margin-left: 790px;
 }
 
 #home {
@@ -54,18 +54,18 @@ nav ul li{
   top: 60px;
   border-radius: 20%;
   border: 15px solid rgb(153, 119, 124);
-  margin: 40px 500px;
+  margin: 40px 800px;
 }
 
 #licoes {
   margin: 20px;
   position: relative;
-  margin:80px 120px; 
+  margin:80px 420px; 
 } 
 
 .li-aprendidas, .li-aprender {
   display: inline-block;
-  margin: 0 50px;
+  margin: 0 61px;
 
 }
  #licoes_aprendidas, #licoes_a_aprender {
@@ -101,7 +101,7 @@ nav ul li{
 
 
 .lado-esquerdo {
-  width: 750px ;
+  width: 1350px ;
   height: 150px; 
   float: left;
   display: inline-block;
@@ -120,7 +120,7 @@ nav ul li{
 }
 
 table {
-  margin-left: 603px;
+  margin-left: 903px;
 }
 
 #rodape {
@@ -161,4 +161,8 @@ table {
   margin-top: 150px;
   margin-left: 510px;
 
+}
+
+#footer-possition {
+  margin: 0 380px;
 }
